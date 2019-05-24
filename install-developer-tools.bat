@@ -25,4 +25,6 @@ choco install -y nodejs.install
 npm install -g cnpm --registry=https://registry.npm.taobao.org
 
 :: Windows C++ 开发, 使用进行 gcc 编译器
-Choco install -y mingw git
+Choco install -y mingw
+
+choco install -y git hyper cmder
